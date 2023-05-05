@@ -8,10 +8,3 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-group = 'com.example'
-version = '1.0-SNAPSHOT'
-
-task publishToMavenLocal(type: PublishToMavenLocal) {
-    group = 'com.example'
-    description = 'Publishes this project to the local Maven repository'
-}
